@@ -62,5 +62,5 @@ async function updateData(city) {
   tempElement.innerHTML = `${temp}&#x2103`;
   windElement.innerHTML = `${wind}&nbspkm/h`;
   humidityElement.innerHTML = humidity;
-  imageElement.src = `/images/${whetherStatus}.png`;
+  imageElement.src = `images/${whetherStatus}.png`;
 }
