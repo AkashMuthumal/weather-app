@@ -1,5 +1,5 @@
 async function getWhether(city) {
-  const apiKey = "0303891cbd69c2eb696e641e1a915f74";
+  const apiKey = process.env.API_KEY;;
 
   const cityLocator = new URL("https://api.openweathermap.org/geo/1.0/direct");
   const whether = new URL("https://api.openweathermap.org/data/2.5/weather");
