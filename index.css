@@ -60,6 +60,7 @@ body {
     padding: 0 20px;
     height: 40px;
     outline: none;
+    min-width: 0;
 }
 
 .middle-section {
